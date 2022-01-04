@@ -1,0 +1,96 @@
+site_name: Justins Learning Docs
+site_description: A place to document my learnings
+site_url: https://docs.justintylers.com/
+theme:
+  name: material
+  palette:
+  - scheme: default
+    primary: blue
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to light mode
+  - scheme: slate
+    primary: blue
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github-alt
+  language: en
+repo_name: justinsgithub/learningdocs
+repo_url: https://github.com/justinsgithub/learningdocs
+edit_uri: ''
+plugins:
+- search
+nav:
+  - index.md
+  - Linux: linux/linux.md
+  - Miscellaneous:
+    - GitHub Pages: miscellaneous/github-pages.md
+    - Learning Resources: miscellaneous/resources.md
+  - Programming Languages:
+    - C:
+      - Overview: programming-languages/c-lang/index.md 
+    - JavaScript:
+      - Overview: programming-languages/javascript/index.md 
+      - Functions:  programming-languages/javascript/functions.md
+      - Classes \& Objects:  programming-languages/javascript/objects.md
+      - Code Challenges: programming-languages/javascript/code-challenges.md
+    - Python:
+      - Overview: programming-languages/python/index.md 
+    - Rust:
+      - Overview: programming-languages/rust/index.md 
+      - Datatypes: programming-languages/rust/datatypes.md 
+      - VFCL: programming-languages/rust/basics.md 
+      - Ownership: programming-languages/rust/ownership.md 
+      - Code Examples: programming-languages/rust/code-examples.md 
+      - Mini Projects: programming-languages/rust/mini-projects.md
+    - TypeScript:
+      - Overview: programming-languages/typescript/index.md 
+  - Technical: 
+    - Data Types: technical/data-types.md
+    - Data Structures: technical/data-structures.md
+    - Terms: technical/terms.md
+  - Random: 
+    - Emojis: random/emojis.md
+  - Vim: 
+    - Overview: vim/index.md
+    - NERDTree: vim/nerdtree.md
+    - Vim Snips: vim/snips.md
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.tabbed
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/justinsgithub
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/lovejustintyler
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/justinaawd
+
+extra_css:
+    - 'https://justinsgithub.github.io/static/docs.justintylers.com/css/termynal.css'
+    - 'https://justinsgithub.github.io/static/docs.justintylers.com/css/custom.css'
+
+extra_javascript:
+    - 'https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js'
+    - 'https://justinsgithub.github.io/static/docs.justintylers.com/javascript/termynal.js'
+    - 'https://justinsgithub.github.io/static/docs.justintylers.com/javascript/custom.js'
