@@ -35,8 +35,6 @@ nav:
     - GitHub Pages: miscellaneous/github-pages.md
     - Learning Resources: miscellaneous/resources.md
   - Programming Languages:
-    - C:
-      - Overview: programming-languages/c-lang/index.md 
     - JavaScript:
       - Overview: programming-languages/javascript/index.md 
       - Functions:  programming-languages/javascript/functions.md
@@ -61,8 +59,9 @@ nav:
     - Emojis: random/emojis.md
   - Vim: 
     - Overview: vim/index.md
-    - NERDTree: vim/nerdtree.md
+    - Nvim: vim/nvim.md
     - Vim Snips: vim/snips.md
+    - SpaceVim: vim/spacevim.md
 markdown_extensions:
 - toc:
     permalink: true
