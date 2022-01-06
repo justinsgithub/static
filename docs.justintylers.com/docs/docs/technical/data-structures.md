@@ -51,9 +51,18 @@
 - strings are used to give us names as well as things like the title of a book 
 - the title of a book is made up of a string of individual characters
 
-## arrays
+## array
 
 - a collection of elements 
 - each element is an item identified by an index / key
 - this could be like a collection of books that are stored on a shelf
 - each spot on the shelf is labeled with a number starting at 0
+
+## set
+
+- a collection of unique items
+- order does not matter
+- none of the elements are duplicated
+- a way of grouping things with a common property 
+- an example could be a list of clothing, pinkies, fingers, userIDs
+
