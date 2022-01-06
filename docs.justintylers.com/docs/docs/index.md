@@ -23,10 +23,12 @@
 
 ## daily reminders
 
-* does this object / item / task truly service me? ( minimalism )
-* is my current action / activity bringing me closer to my goals? ( productivity )
+* focus one accomplishing a single task / solving one problem at at time no matter how simple it seems
+* trying to multitask or focus on more than 1 thing is as efficient as patting your head and rubbing yor stomach
 * compulsive actions lead to destructive behavior
 * think on an idea before taking action no matter how good the idea seems (even what sounds like a "no-brainer")
+* does this object / item / task truly service me? ( minimalism )
+* is my current action / activity bringing me closer to my goals? ( productivity )
 
 ## find me
 
