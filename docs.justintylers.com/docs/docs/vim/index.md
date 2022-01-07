@@ -14,7 +14,7 @@ non-exhaustive documentation
 * command centric editor that is available everywhere
 * Vim traditionally does not have GUI but now there is separate installer called gVim which provides GUI
 
-## modes
+## modes and features
 
 - **command mode** is the default mode Vim starts in when first opened 
 - **insert mode** is used to enter text, **press i** to start this mode
@@ -23,30 +23,26 @@ non-exhaustive documentation
 
 ## features
 
-* Its memory footprint is very low
-* It is command centric. You can perform complex text related task with few commands
-* It is highly configurable and uses simple text file to store its configuration
-* There are many plug-in available for Vim. Its functionality can be extended in great manner
-using these plug-in
-* It supports multiple windows. Using this feature screen can be split into multiple windows
-* Same as multiple windows, it also supports multiple buffers
-* It supports multiple tabs which allows to work on multiple files
-* It supports recording features which allows to record and play Vim commands in repeated
+* memory footprint is very low
+* command centric so performing complex text manipulations is quick and easy
+* highly configurable and uses simple text files to store its configuration
+* there are many plug-in available for Vim
+* functionality can be extended in greatly using plug-ins
+* supports multiple windows and can be split into multiple windows
+* supports multiple buffers
+* supports multiple tabs 
+* supports recording features which allows to record and play Vim commands in repeated
 manner
 
+## general commands
 
-## command mode commands
+> Vim supports h l  j  k as well as arrow keys for moving cursor
 
-### general
 - i ( change to insert mode )
 - esc ( change to command mode, default when opening Vim )
 - : ( change to command line mode )
 - v ( change to visual line mode )
 - ZZ ( save and quit )
-
-### navigation
-
-> Vim supports h l  j  k as well as arrow keys for moving cursor
 
 - h ( move cursor left )
 - l ( move cursor right )
@@ -54,10 +50,6 @@ manner
 - j ( move cursor down a line )
 - 0 ( move cursor to beginning of current line )
 - $ ( move cursor to end of current line )
-
-### inserting / changing text
-
-> type these sequences to perform ( action described here )
 
 - i ( insert, cursor starts at beginning of current character )
 - I ( insert at beginning of line, cursor starts at beginning of current line )
@@ -71,9 +63,7 @@ manner
 - r MYCHAR ( replaces the character under the cursor with MYCHAR )
 
 
-## command-line mode commands
-
-### general    
+## command-line mode
 
 - :e Load new file in buffer for editing
 - :edit Same as :e
@@ -88,7 +78,8 @@ manner
 - :wq ( saves and quits )
 - :help ( opens the help menu )
 
-### tabs
+
+## tabs
 
 - :tabnew <file-name> ( open <file-name> in new tab )
 - :tabclose ( close current tab )
@@ -97,7 +88,7 @@ manner
 - :tabfirst ( move to the first tab )
 - :tablast ( move to the last tab )
 
-### buffers
+## buffers
 
 - :badd <file> add <file> into new buffer )
 - :bN ( switch to Nth buffer )
@@ -108,7 +99,7 @@ manner
 - :blast ( move to the last buffer )
 - :ball ( load all buffers )
 
-### windows 
+## windows 
 
 - :new ( open new window )
 - :new <file> ( open file in new window )
