@@ -16,21 +16,13 @@
 - TS is a tool that runs before JS code runs ( static ) and ensures that the types in the program are correct ( typechecked )
 - when JS code is ran, the runtime knows what to do by figuring out the types of the values in the code
 - the type of a value tells our code what behaviors and capabilities a binding has
+- TS will also add massive editor support for auto completion and code hints
 
  
 
 ## benefits
 
 > reduce mental overhead and mistakes
-
-- we have to remember alot of mental notes for the below simple code 
-- is message callable?
-- does it have property lowercase on it?
-- is toLowerCase callable?
-- what does lowerCase return?
-- the above questions might be super simple block but what about with hundreds of lines of code and multiple files of it?
-- TS will also add massive editor support for auto completion and code hints
-
 
 ```javascript
 // Accessing the property 'toLowerCase'
@@ -40,9 +32,16 @@ message.toLowerCase();
 message();
 ```
 
+- we have to remember alot of mental notes for the above code 
+- is message callable?
+- does it have property lowercase on it?
+- is toLowerCase callable?
+- what does lowerCase return?
+- the above questions might be super simple block but what about with hundreds of lines of code and multiple files of it?
+
+
 ## TS vs JS errors
 
-- in TS the below code would throw a specific ***property "location" does not exist error***
 - TS can catch spelling errors much easier
 - TS can catch uncalled functions from forgetting the closing parenthesis
 
@@ -51,6 +50,8 @@ const user = {
   name: "Daniel",
   age: 26,
 };
-user.location; // returns undefined
+user.location;
 ```
+- in JS the above code would not throw an undefined error
+- in TS the above code would throw a specific ***property "location" does not exist error***
 

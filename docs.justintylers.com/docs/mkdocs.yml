@@ -30,7 +30,10 @@ plugins:
 - search
 nav:
   - index.md
-  - Linux: linux/linux.md
+  - Linux: 
+    - Directories: linux/directories.md
+    - Basic Commands: linux/commands.md
+    - Advanced Commands: linux/linux-programs.md
   - Miscellaneous:
     - GitHub Pages: miscellaneous/github-pages.md
     - Learning Resources: miscellaneous/resources.md
@@ -40,8 +43,6 @@ nav:
       - Functions:  programming-languages/javascript/functions.md
       - Classes \& Objects:  programming-languages/javascript/objects.md
       - Code Challenges: programming-languages/javascript/code-challenges.md
-    - Python:
-      - Overview: programming-languages/python/index.md 
     - Rust:
       - Overview: programming-languages/rust/index.md 
       - Datatypes: programming-languages/rust/datatypes.md 

@@ -1,32 +1,25 @@
-# Justins Learning Docs
+# Learning Docs
 
 
-<div class="termy">
-```console
-<span style='color:red;'>=</span>(%)<span style='color:red;'>=></span> learning_docs='a place to document my learnings'
-```
-</div>
+## learning docs objective
 
-## about these docs
-
-* this documentation is for myself to help reinforce my learnings
-* this project is also to help practice documentation / organization / learning ability
+* to help reinforce my learnings
+* to help practice documentation / organization / learning ability
 
 !!! important
     - code style in this documentation may vary
     - here are some rules that may not vary
     - "you" shall be used very minimally, if ever
     - "." shall be used only in code examples
-    -  "," should be shall be used thoughtfully
-    - capitalizations will be used only in main headers, names, or code examples
-    - bullet points are used religiously to help keep content to the point
+    -  "," shall not be used carelessly
+    - capitalizations will only be used for pages title, names, or code examples
 
 ## daily reminders
 
-* focus one accomplishing a single task / solving one problem at at time no matter how simple it seems
-* trying to multitask or focus on more than 1 thing is as efficient as patting your head and rubbing yor stomach
+* focus on accomplishing a single task / solving one problem at at time no matter how simple it seems
+* trying to multitask or focus on more than 1 thing is like trying to brush your teeth and hair at the same time
 * compulsive actions lead to destructive behavior
-* think on an idea before taking action no matter how good the idea seems (even what sounds like a "no-brainer")
+* think on an idea before taking action no matter how good it seems, even "no-brainers"
 * does this object / item / task truly service me? ( minimalism )
 * is my current action / activity bringing me closer to my goals? ( productivity )
 

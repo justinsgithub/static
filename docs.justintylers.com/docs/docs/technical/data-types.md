@@ -19,8 +19,6 @@
 
 ### primitive data type list
 
-> may vary slightly between programming languages
-
 - byte
 - short
 - int

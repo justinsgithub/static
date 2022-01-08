@@ -1,7 +1,5 @@
 # JavaScript
 
-> love it or despise it, at least learn to get along with it
-
 ## data types
 
 * number 
